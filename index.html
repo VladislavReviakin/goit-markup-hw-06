@@ -38,20 +38,65 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open-btn js-open-menu">
+        <svg class="mobile-menu-svg" width="32" height="22">
+          <use href="./images/icons.svg#icon-charm-menu-hamburger" aria-label="hamburger"></use>
+        </svg>
+      </button>
         <address class="contact-links">
           <ul class="list contact-links">
             <li>
-              <a class="contact link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-              <a class="contact link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+              <a class="contact link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close-btn js-close-menu" >
+            <svg width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1close"></use>
+            </svg>
+          </button>
+          <ul class="list mobile-menu-list">
+            <li class="mobile-item"><a class="link mobile-link mobile-link-studio theme" href="">Studio</a></li>
+            <li class="mobile-item"><a class="link mobile-link theme" href="">Portfolio</a></li>
+            <li class="mobile-item"><a class="link mobile-link theme" href="">Contacts</a></li>
+          </ul>
+          <ul class="list mobile-contact-list">
+            <li><a class="link theme phone" href="">+11 (000) 111-11-11</a></li>
+            <li class="email"><a class="link name" href="">info@devstudio.com</a></li>
+          </ul>
+          <ul class="list minilist-mobile">
+            <li class="social-list-minilist-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-item" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg></a>
+            </li>
+            <li class="social-list-minilist-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-item" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg></a>
+            </li>
+            <li class="social-list-minilist-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-item" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg></a>
+            </li>
+            <li class="social-list-minilist-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-item" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -77,7 +122,7 @@
                 </svg>
               </div>
               <h3 class="name">Strategy</h3>
-              <p class="description-paragraph">
+              <p class="description-paragraph mobile-paragraph">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -92,7 +137,7 @@
                 </svg>
               </div>
               <h3 class="name">Punctuality</h3>
-              <p class="description-paragraph">
+              <p class="description-paragraph mobile-paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -107,7 +152,7 @@
                 </svg>
               </div>
               <h3 class="name">Diligence</h3>
-              <p class="description-paragraph">
+              <p class="description-paragraph mobile-paragraph">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -122,7 +167,7 @@
                 </svg>
               </div>
               <h3 class="name">Technologies</h3>
-              <p class="description-paragraph">
+              <p class="description-paragraph mobile-paragraph">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -457,5 +502,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
