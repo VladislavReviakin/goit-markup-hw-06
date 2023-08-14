@@ -175,17 +175,17 @@ ol {
   .contact-links {
     display: none;
   }
+
+  .page-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 
 .page-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo {
@@ -275,6 +275,7 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .menu-link:hover,
@@ -525,7 +526,7 @@ ol {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 429px) {
   .hero-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -536,15 +537,24 @@ ol {
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2ddpx) and (min-width: 768px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 429px),
+  screen and (min-resolution: 192dpi) and (min-width: 429px),
+  screen and (min-resolution: 2ddpx) and (min-width: 429px) {
   .hero-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hw-six/dark-bg-tablet@x2.jpg);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero-section {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/hw-four/people-office.jpg);
+    max-width: 1440px;
   }
 }
 
@@ -556,18 +566,12 @@ ol {
 @media screen and (min-width: 1158px) {
   .hero-section {
     padding: 188px 0;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hw-four/people-office.jpg);
-    max-width: 1440px;
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
-  screen and (min-resolution: 192dpi) and (min-width: 1158px),
-  screen and (min-resolution: 2ddpx) and (min-width: 1158px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 769px),
+  screen and (min-resolution: 192dpi) and (min-width: 769px),
+  screen and (min-resolution: 2ddpx) and (min-width: 769px) {
   .hero-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1026,7 +1030,9 @@ ol {
 }
 
 /*section five*/
-@media screen and (max-width: 767px) {
+
+  
+  @media screen and (max-width: 767px) {
   .customers {
     padding: 96px 0;
   }
@@ -1034,6 +1040,7 @@ ol {
   .customers-list {
     gap: 72px 16px;
   }
+  
   .customers-list-item {
     width: calc((100% - 16px) / 2);
     height: 88px;
@@ -1041,7 +1048,7 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .customers-list {
-    gap: 24px;
+    gap: 72px 24px;
   }
 
     .customers {
@@ -1057,7 +1064,6 @@ ol {
   .customers-list-item {
     width: calc((100% - 48px) / 3);
     height: 88px;
-    margin-bottom: 72px;
   }
 }
 
