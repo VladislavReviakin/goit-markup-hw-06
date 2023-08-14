@@ -74,7 +74,7 @@ ol {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
     margin-left: auto;
@@ -114,12 +114,11 @@ ol {
 
   .mobile-contact-list {
     display: block;
-    margin-top: 284px;
+    margin-top: auto;
   }
 
   .minilist-mobile {
     gap: 56px;
-    justify-content: center;
     margin-top: 48px;
   }
 
@@ -166,6 +165,11 @@ ol {
   .mobile-menu-container {
     position: relative;
     padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
   .contact-links {
@@ -295,7 +299,7 @@ ol {
   width: 100%;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .contact-links {
     font-style: normal;
     line-height: 1.5;
@@ -312,7 +316,7 @@ ol {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .contact-links {
     font-style: normal;
     line-height: 1.5;
@@ -544,12 +548,12 @@ ol {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .hero-section {
     padding: 112px 0;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .hero-section {
     padding: 188px 0;
     background-image: linear-gradient(
@@ -561,9 +565,9 @@ ol {
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  screen and (min-resolution: 192dpi) and (min-width: 1200px),
-  screen and (min-resolution: 2ddpx) and (min-width: 1200px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+  screen and (min-resolution: 192dpi) and (min-width: 1158px),
+  screen and (min-resolution: 2ddpx) and (min-width: 1158px) {
   .hero-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -613,10 +617,6 @@ ol {
     line-height: 24px;
     letter-spacing: 0.32px;
   }
-
-  .first-container {
-    width: 320px;
-  }
 }
 @media screen and (min-width: 768px) {
   .features-item {
@@ -636,7 +636,7 @@ ol {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .first-section {
     padding-top: 96px;
   }
@@ -674,7 +674,7 @@ ol {
     gap: 72px 24px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .first-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -885,7 +885,7 @@ ol {
 }
 
 /*section two*/
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .photo-section {
     display: none;
   }
@@ -964,7 +964,7 @@ ol {
   text-align: center;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .list-item-two {
     background-color: #ffffff;
     width: calc((100%-72px) / 4);
@@ -1048,12 +1048,12 @@ ol {
       padding: 120px 0;
     }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .customers-list {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .customers-list-item {
     width: calc((100% - 48px) / 3);
     height: 88px;
@@ -1095,7 +1095,7 @@ ol {
   margin-bottom: 72px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .customers-list-item {
     width: calc((100% - 120px) / 6);
     height: 88px;
@@ -1159,7 +1159,7 @@ ol {
     width: 264px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .end {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -1174,7 +1174,7 @@ ol {
 .end {
   background-color: #2e2f42;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .end {
     padding-top: 100px;
     padding-bottom: 100px;
