@@ -56,7 +56,7 @@ ol {
 
 @media screen and (max-width: 767px) {
   .container {
-    width: 320px;
+    width: 428px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1543,6 +1543,9 @@ ol {
 @media screen and (max-width: 427px) {
   .phone {
     font-size: 27px;
+  }
+  .container {
+    width: 320px;
   }
   .minilist-mobile {
     gap: 35px;
